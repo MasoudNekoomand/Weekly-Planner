@@ -3,7 +3,7 @@
 A clean, minimalist, and responsive weekly planner interface built with pure **HTML5** and **CSS3**.  
 Designed to help organize weekly tasks, habits, and schedules with support for both LTR and RTL layouts.
 
-***🛠️ Built With:**
+**🛠️ Built With:**
 - HTML5 - Semantic structure
 - CSS3 Flexbox styling & typography
 
