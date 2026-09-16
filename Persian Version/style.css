@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "bn";
+  src:
+    url("Font/BNazanin.ttf"), url("Font/BNazannO.ttf"), url("Font/BNaznnBd.ttf");
+}
+body {
+  background-image: url("../laptop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "bn";
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: #FFF4E644; */
+  background-color: #cce4f6aa;
+  border-radius: 0 0 5px 5px;
+  /* padding: 10px; */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.header .top-left h1 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-shadow:
+    0 0 10px lightcyan,
+    0 2px 10px white,
+    0 0 5px cyan;
+  /* text-decoration: underline #000000; */
+  text-transform: uppercase;
+}
+.header .top-right {
+  display: flex;
+  justify-content: space-around;
+}
+.header p {
+  color: #030303;
+  text-shadow: 0 0 10px #fdfdfd;
+  font-size: 20px;
+  text-transform: capitalize;
+  width: 40%;
+  /* text-align: justify; */
+}
+.middle {
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #fdfdfdd8;
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  vertical-align: middle;
+  font-size: 20px;
+}
+table,
+th,
+td {
+  border: 2px solid #5d5d5d;
+  text-align: center;
+  padding: 12px;
+}
+th,
+td:first-child {
+  background-color: #c6e1f5;
+}
+.footer {
+  background-color: #cce4f6aa;
+  padding: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .buttom-left {
+  background-color: #8baaceaa;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid gray;
+  text-transform: capitalize;
+}
+.buttom-left p {
+  color: #03404c;
+  text-shadow: 0 0 10px #faefe1;
+  font-size: 18px;
+}
+.buttom-right {
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  text-align: center;
+  width: 40mm;
+}
+.buttom-right .h1 {
+  background-color: #8baaceaa;
+  padding: 0 4px 0 4px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.buttom-right hr {
+  position: relative;
+  top: 10px;
+  border: 1px solid gray;
+}
+.buttom-right .list {
+  padding-left: 10px;
+}
+ol li {
+  margin-top: 15px;
+}
